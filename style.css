@@ -1,0 +1,41 @@
+@font-face {
+  font-family: windsorPro;
+  src:url("assets/WindsorProRg.TTF");
+}
+
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: windsorPro;
+}
+/* main canvas {
+display: none;
+} */
+
+*:focus {
+  outline: none;
+}
+input {
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+background-color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: #D9D9D9;
+opacity: 1; /* Firefox */
+}
+
+button {
+  border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+background-color: white;
+}
